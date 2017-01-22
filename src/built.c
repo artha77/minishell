@@ -5,7 +5,7 @@
 ** Login   <artha@epitech.net>
 **
 ** Started on  Sun Jan 22 14:58:03 2017 dylan renard
-** Last update Sun Jan 22 17:00:18 2017 dylan renard
+** Last update Sun Jan 22 21:31:33 2017 dylan renard
 */
 
 #include "shell.h"
@@ -53,7 +53,6 @@ char		**set_env(char *name, char *value, char **envp)
 	}
       envp_new[i] = my_strcat(name, "=");
       envp_new[i] = my_strcat(envp_new[i], value);
-      free(envp);
       return (envp_new);
     }
   envp[pos] = my_strcat(name, "=");
