@@ -5,7 +5,7 @@
 ** Login   <Artha77@epitech.net>
 **
 ** Started on  Thu Oct 13 17:22:36 2016 dylan renard
-** Last update Sun Jan 22 21:04:56 2017 dylan renard
+** Last update Sun Jan 22 21:38:43 2017 dylan renard
 */
 
 #include <stdlib.h>
@@ -103,7 +103,7 @@ static char	**wordtab(char **tab, char *str, int size, int k)
       if (str[j] == '"')
 	{
 	  tab = do_quote(str, tab, j, k);
-	  j += my_strlen(tab[++k]) + 2;
+	  j += my_strlen(tab[++k]) + 1;
 	  i = j;
 	}
       j++;
