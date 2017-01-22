@@ -5,10 +5,10 @@
 ## Login   <Artha77@epitech.net>
 ##
 ## Started on  Mon Oct 17 20:22:43 2016 dylan renard
-## Last update Sun Jan 22 20:47:28 2017 dylan renard
+## Last update Sun Jan 22 21:18:08 2017 dylan renard
 ##
 
-CC	=	gcc -g
+CC	=	gcc
 
 AR	=	ar rc
 

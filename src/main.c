@@ -5,7 +5,7 @@
 ** Login   <artha@epitech.net>
 **
 ** Started on  Mon Jan 16 20:19:55 2017 dylan renard
-** Last update Sun Jan 22 20:42:08 2017 dylan renard
+** Last update Sun Jan 22 21:14:21 2017 dylan renard
 */
 
 #include "shell.h"
@@ -30,10 +30,9 @@ static char	**init_env(void)
 {
   char		**envp;
 
-  envp = malloc(4 * sizeof(char *));
+  envp = malloc(3 * sizeof(char *));
   envp[0] = my_strdup("PATH=/bin/");
-  envp[1] = my_strdup("HOME=/");
-  envp[2] = my_strdup("NAME=artha");
+  envp[1] = my_strdup("ROOT=/");
   envp[3] = NULL;
   return (envp);
 }
